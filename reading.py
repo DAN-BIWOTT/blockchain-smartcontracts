@@ -2,7 +2,7 @@ import json
 from web3 import Web3
 
 # Connect to the block chain
-infura_url = "https://mainnet.infura.io/v3/99c68d71c5844e2f83ca7859c2157bbd"
+infura_url = "https://mainnet.infura.io/v3/99c68d71c5844e2f83ca7859c2157bbd" #do not forget to add the "HTTPS://" before the URL
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # Test the connection
